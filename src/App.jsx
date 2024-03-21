@@ -8,6 +8,7 @@ return (
     <>
     <S.GlobalStyle/>
     <Header/>
+    <h2>VNW</h2>
     <Main/>
     <Footer/>
     </>

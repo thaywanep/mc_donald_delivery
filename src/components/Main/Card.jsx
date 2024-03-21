@@ -1,4 +1,4 @@
-import * as S from "/main_styled"
+import * as S from "./main_styled"
 
 export default function Card({imagem, texto}) {
 return (
