@@ -4,6 +4,11 @@ import React from 'react'
 
 export default function Footer() {
 return (
-    <div>Footer</div>
-)
+    <footer className="footer">
+        <div className="footer-content">
+            <p>Texto do rodapé</p>
+            <img src="caminho/para/imagem.png" alt="Descrição da Imagem do Rodapé" />
+        </div>
+    </footer>
+    );
 }
