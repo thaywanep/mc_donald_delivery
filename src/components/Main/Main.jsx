@@ -19,9 +19,9 @@ return (
                 <h2>BATEU AQUELA <span>#FOME</span> DE <span>MÉQUI</span>?</h2>
             </S.Principal>
             <figure>
-                <img onClick={()=>{setItem(mac)}} src={mac} alt="imagem hamburguer" />
-                <img onClick={batataFrita} src={batata} alt="imagem de uma porção de batata frita" />
-                <img onClick={casquinha} src={sorvete} alt="imagem de um sorvete em casquinha" />
+                <img src={mac} alt="imagem hamburguer" />
+                <img src={batata} alt="imagem de uma porção de batata frita" />
+                <img src={sorvete} alt="imagem de um sorvete em casquinha" />
             </figure>
         </S.Banner>
         <S.Promocao>

@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: sans-serif;
 }
 `
+
 const center = css`
     display: flex;
     justify-content: center;
@@ -15,22 +16,22 @@ const center = css`
 `
 
 export const Header = styled.header`
-/* border: solid 1px red; */
 ${center}
 justify-content: space-between;
 padding-left: 60px;
 height: 12vh;
 `
+
 export const BtnApp = styled.div`
-/* border: solid 1px red; */
 width: 30vw;
+heigth: 12vh;
 ${center}
 justify-content: space-evenly;
 `
+
 export const App = styled.div`
-/* border: solid 1px red; */
 border-radius: 10px;
-width: 10.1vw;
+width: 12vw;
 height: 6vh;
 ${center}
 justify-content: space-evenly;

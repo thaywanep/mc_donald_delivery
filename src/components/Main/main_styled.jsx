@@ -5,25 +5,28 @@ const center = css`
     justify-content: center;
     align-items: center;
 `
+
 export const Banner = styled.section`
-border: solid 1px blue;
 background-color: #FFC72C;
-height: 70vh;
-flex-direction: row;
-justify-content: space-around;
+height: 75vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 figure {
-    ${center}
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 `
+
 export const Principal = styled.div`
-border: solid 1px red;
 display: flex;
 height: 70%;
 width: 100%;
-gap: 20;
-img{
-    width: 15vw;
-}
+flex-direction: row;
+justify-content: space-around;
 h2{
     font-size: 50px;
     font-weight: 800;
@@ -46,24 +49,24 @@ h3{
 `
 
 export const Center = styled.div`
-/* border: solid 2px red; */
 width: 70vw;
 ${center}
 justify-content: space-around;
 `
 
 export const Card = styled.div`
-/* border: solid 2px green; */
-height: 40vh;
+border: 3px solid #FEB706;
+height: 45vh;
+width: 30%;
 text-align: center;
 background-color: white;
 border-radius: 13px;
 p{
-    /* border: solid 2px green;  */
-    height: 9vh;
+    height: 10vh;
     ${center}
 }
 button{
+    cursor: pointer;
     background-color: #FFBC0D;
     border: none;
     padding: 10px 20px;

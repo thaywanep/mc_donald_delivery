@@ -10,12 +10,12 @@ return (
         <img src={logo} alt="" />
         <S.BtnApp>
             <S.App>
-                <img src={app} alt="" />
+                <img src={celapp} alt="" />
                 <p>Baixe o App</p>
             </S.App>
             <S.App color="#FFC72C">
                 <p>Peça seu Méqui</p>
-                <img src={celapp} alt="" />
+                <img src={app} alt="" />
             </S.App>
         </S.BtnApp>
     </S.Header>
