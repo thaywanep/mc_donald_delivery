@@ -27,9 +27,13 @@ width: 30vw;
 heigth: 12vh;
 ${center}
 justify-content: space-evenly;
+:hover{
+    background-color: red;
+}
 `
 
 export const App = styled.div`
+cursor: pointer;
 border-radius: 10px;
 width: 12vw;
 height: 6vh;

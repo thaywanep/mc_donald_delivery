@@ -69,7 +69,8 @@ button{
     cursor: pointer;
     background-color: #FFBC0D;
     border: none;
-    padding: 10px 20px;
+    height: 5vh;
+    width: 45%;
     border-radius: 10px;
 }
 `
