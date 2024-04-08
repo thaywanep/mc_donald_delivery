@@ -28,6 +28,7 @@ width: 100%;
 flex-direction: row;
 justify-content: space-around;
 h2{
+    color: #FFFFFF;
     font-size: 50px;
     font-weight: 800;
     ${center}

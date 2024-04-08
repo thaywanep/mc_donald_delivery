@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Rodape = styled.section`
-background-color: #c7c7c7;
+background-color: #FFFFFF;
 height: 10vh;
 display: flex;
 flex-direction: row;
